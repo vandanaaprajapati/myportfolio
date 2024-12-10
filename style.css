@@ -17,6 +17,10 @@
     --bgColor:#F7F7F7;
   }
   /* header start */
+  .interlink a{
+    text-decoration: none;
+    color: var(--themeColor);
+  }
   header{
     height:100vh;
     width:300px;
@@ -29,6 +33,10 @@
     transition: 0.4s;
     bottom: 0;
     z-index:99;
+  }
+  .dflex{
+    display: flex;
+    justify-content: space-between;
   }
   header .profile{
     text-align: center;
